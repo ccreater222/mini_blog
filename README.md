@@ -48,6 +48,16 @@ cd mini_blog
 docker-compose up -d
 ```
 
+接着修改www/index.html中的
+
+```javascript
+var base = `http://127.0.0.1:60080/web/`;
+```
+
+将http://127.0.0.1:60080替换成你的域名
+
+
+
 安装好后访问http://127.0.0.1:60080
 
 修改docker-compose.yml，将`"60080:80"`替换成`你想要的端口:80`来修改默认端口
