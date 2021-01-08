@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="js/node_modules/simplemde/dist/simplemde.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aes-js@3.1.2/index.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/md5@2.3.0/dist/md5.min.js"></script>
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+        <link rel="stylesheet" href="css/Material_Icons.css">
+        <link rel="stylesheet" href="css/chatbox.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+        <link rel="stylesheet" href="js/node_modules/simplemde/dist/simplemde.min.css">
+        <link rel="stylesheet" href="css/apollo.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/search.css">
+        <title></title>
+        <script>
+            function setTitle(title){
+                $("title").text(title) ;
+            }
+        </script>
+        <style>
+        </style>
+    </head>
+    <body>
+    <div id="note" style="display: none;"><div id="notemsg" style="display: inline">msg</div><a id="close" onclick="$('#note').hide()"><i class="material-icons">close</i></a>
+        </div>
+        <div id="recheck">
+
+            <form class="modal-content">
+                <span onclick="$('#recheck').hide()" class="close" title="Close Modal">×</span>
+                <div class="container">
+                    <h1 id="recheck-title">Delete Account</h1>
+                    <p id="recheck-message">Are you sure you want to delete your account?</p>
+
+                    <div class="clearfix">
+                        <button id="noButton" type="button" class="cancelbtn">Cancel</button>
+                        <button id="yesButton" type="button" class="deletebtn">Delete</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="app" class="wrap"  style="display: block;">
+
+            <ccreater-head v-bind:current="current" v-bind:navigations="navigations"></ccreater-head>
+
+            <section class="container">
+
+                <div id = "content">
+                    <keep-alive>
+                        <component v-bind:is="current"></component>
+                    </keep-alive>
+                </div>
+            </section>
+
+            <ccreater-footer></ccreater-footer>
+        </div>
+
+    </body>
+
+    <script src = "js/dateFormat.js"></script>
+    <script src = "js/header.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/editor.js"></script>
+    <script src="js/archive.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/about.js"></script>
+    <script src = "js/content.js" type="module"> </script>
+    <script src = "js/footer.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/article.js"></script>
+    <script src="js/article-detail.js"></script>
+    <script src="js/comment.js"></script>
+    <script src="js/chatbox.js"></script>
+    <script src="js/manage.js"></script>
+    <script>
+        var base = `http://127.0.0.1:60080/web/`;
+        var navigations ={
+            home:{name:"HOME",tag:"ccreater-home",url:"javascript:void(0)",target:"_self"},
+            archive:{name:"ARCHIVE",tag:"ccreater-archive",url:"javascript:void(0)",target:"_self"},
+            login:{name:"LOGIN",tag:"ccreater-login",url:"javascript:void(0)",target:"_self"},
+            about:{name:"ABOUT",tag:"ccreater-about",url:"javascript:void(0)",target:"_self"}
+        }
+        var current = navigations["home"].tag
+        var eventHub = new Vue()
+        eventHub.$on('sendEdit',util.sendEdit)
+        var app = new Vue({
+            el:"#app",
+            data:{
+                navigations:navigations,
+                current: current,
+                auth:auth,
+                window:this
+            },
+            watch:{
+                auth:{
+                    handler:function(){
+                        this.updateNavigations()
+                    },
+                    deep:true
+                }
+            },
+            mounted: function () {
+                function handler(vm) {
+                    return function (result) {
+                        if(result){
+                            vm.updateNavigations()
+                            console.log("init ok")
+                        }
+                    }
+                }
+                this.auth.isLogin(handler(this))
+            },
+            methods:{
+                updateNavigations:function () {
+                    if(this.navigations["login"].name=="LOGIN"){
+                        console.log(this.auth)
+                        if(this.auth.username){
+                            if(this.auth.isAdmin){
+                                this.navigations["login"].name="MANAGE"
+                                this.navigations["login"].tag = "ccreater-manage"
+                            }else{
+                                this.navigations["login"].name=this.auth.username
+                                this.navigations["login"].tag = "ccreater-home"
+                            }
+
+
+                        }
+
+                    }
+
+                }
+            }
+        })
+
+    </script>
+
+
+
+
+
+</html>

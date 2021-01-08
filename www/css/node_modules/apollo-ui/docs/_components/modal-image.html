@@ -1,0 +1,45 @@
+---
+title: Image support
+category: modal
+order: 5
+description: Full-bleed <em>foreground</em> images can be added to a modal for decorative purposes.
+---
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#demo-modal-image">
+  Modal with image
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="demo-modal-image">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close inverse" type="button" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-image-full modal-image-top">
+        <img class="img-fluid" src="https://placeimg.com/1000/400/tech/grayscale">
+      </div>
+      <div class="modal-header">
+        <button type="button" class="sr-only" data-dismiss="modal" aria-label="Close"></button>
+        <h4 class="modal-title">Welcome to the future</h4>
+      </div>
+      <div class="modal-body">
+        <p>The future is now, which makes this the present and that's not as exciting as the future.  Weren't we supposed to have hoverboards and flying cars by now?</p>
+      </div>
+      <div class="modal-footer">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dont-show-again"> Don't show again
+              </label>
+            </div>
+          </div>
+          <div class="col-xs-6 text-xs-right">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

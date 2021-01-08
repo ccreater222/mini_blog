@@ -1,0 +1,66 @@
+---
+title: Size options
+category: modal
+order: 10
+description: There are small and large options for modals, depending on how much room your content needs.
+---
+<!-- Small modal trigger -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#demo-modal-sm">
+  Launch small modal
+</button>
+
+<!-- Large modal trigger -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#demo-modal-lg">
+  Launch large modal
+</button>
+
+<!-- Small modal -->
+<div class="modal modal-sm fade" id="demo-modal-sm">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+        <h4 class="modal-title">You should read this</h4>
+      </div>
+      <div class="modal-body">
+        <p>After you're done reading this important message, it's time to make a decision.  Use the buttons below to make your decision.  Choose wisely...</p>
+      </div>
+      <div class="modal-footer text-xs-right">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Action</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Large modal -->
+<div class="modal modal-lg fade" id="demo-modal-lg">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-image-full modal-image-top">
+        <img class="img-fluid" src="https://placeimg.com/1000/400/tech/grayscale">
+      </div>
+      <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+        <h4 class="modal-title">Welcome to the future</h4>
+      </div>
+      <div class="modal-body">
+        <p>The future is now, which makes this the present and that's not as exciting as the future.  Weren't we supposed to have hoverboards and flying cars by now?</p>
+      </div>
+      <div class="modal-footer">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dont-show-again"> Don't show again
+              </label>
+            </div>
+          </div>
+          <div class="col-xs-6 text-xs-right">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

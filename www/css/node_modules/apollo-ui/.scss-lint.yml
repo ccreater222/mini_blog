@@ -1,0 +1,34 @@
+linters:
+  PropertySortOrder:
+    separate_groups: false
+    order:
+      - position
+      - top
+      - right
+      - bottom
+      - left
+      - z-index
+      -
+      - display
+      - float
+      - overflow
+      - box-sizing
+      - width
+      - height
+      - padding
+      - margin
+      -
+      - background
+      - background-color
+      - background-image
+      - border
+      -
+      - color
+      - font-family
+      - font-size
+      - text-align
+      -
+      - border-radius
+      - box-shadow
+      - transition
+      - transform

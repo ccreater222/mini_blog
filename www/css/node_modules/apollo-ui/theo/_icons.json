@@ -1,0 +1,1319 @@
+{
+  "props": {
+    "create-event": {
+    "value": "'\\21'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "tag": {
+    "value": "'\\22'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "topic": {
+    "value": "'\\23'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "phone": {
+    "value": "'\\24'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "website": {
+    "value": "'\\25'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "landing-page": {
+    "value": "'\\26'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "report": {
+    "value": "'\\27'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "all-reports": {
+    "value": "'\\28'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "custom-reports": {
+    "value": "'\\29'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "account": {
+    "value": "'\\2a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "annotation": {
+    "value": "'\\2b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "web-analytics": {
+    "value": "'\\2c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "segments": {
+    "value": "'\\2d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "facility": {
+    "value": "'\\2e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "csv": {
+    "value": "'\\2f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "send-direct-mail": {
+    "value": "'\\30'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "journey": {
+    "value": "'\\31'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "journey-activity-monitor": {
+    "value": "'\\32'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "survey": {
+    "value": "'\\33'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "survey-activity-monitor": {
+    "value": "'\\34'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "information": {
+    "value": "'\\35'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "lesson": {
+    "value": "'\\36'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "project-plan": {
+    "value": "'\\37'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "date": {
+    "value": "'\\38'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "event": {
+    "value": "'\\39'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "plain-text": {
+    "value": "'\\3a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "assign": {
+    "value": "'\\3b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "drag": {
+    "value": "'\\3c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "edit": {
+    "value": "'\\3d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "print": {
+    "value": "'\\3e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "help": {
+    "value": "'\\3f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "select-language": {
+    "value": "'\\40'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "pdf": {
+    "value": "'\\41'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "powerpoint": {
+    "value": "'\\42'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "excel": {
+    "value": "'\\43'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "data-management": {
+    "value": "'\\44'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "kpi-management": {
+    "value": "'\\45'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "email": {
+    "value": "'\\46'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "configure": {
+    "value": "'\\47'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "trends": {
+    "value": "'\\48'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "list": {
+    "value": "'\\49'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "compare": {
+    "value": "'\\4a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "scorecard": {
+    "value": "'\\4b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "grid": {
+    "value": "'\\4c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign": {
+    "value": "'\\4d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign-element": {
+    "value": "'\\4e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign-plan": {
+    "value": "'\\4f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign-wave": {
+    "value": "'\\50'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign-all": {
+    "value": "'\\51'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "campaign-activity-monitor": {
+    "value": "'\\52'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sales": {
+    "value": "'\\53'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sales-group": {
+    "value": "'\\54'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "lead": {
+    "value": "'\\55'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "everyday-health": {
+    "value": "'\\56'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "social-media-profile": {
+    "value": "'\\57'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sms-messages": {
+    "value": "'\\58'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "collaboration": {
+    "value": "'\\59'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "email-opened": {
+    "value": "'\\5a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "feedback": {
+    "value": "'\\5b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "warning": {
+    "value": "'\\5c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "signup": {
+    "value": "'\\5d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "view": {
+    "value": "'\\5e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "decision": {
+    "value": "'\\5f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "continue": {
+    "value": "'\\60'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "home": {
+    "value": "'\\61'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "trash": {
+    "value": "'\\62'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "contact": {
+    "value": "'\\63'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "group": {
+    "value": "'\\64'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "settings": {
+    "value": "'\\65'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "save": {
+    "value": "'\\66'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "load": {
+    "value": "'\\67'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "share": {
+    "value": "'\\68'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "import": {
+    "value": "'\\69'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "export": {
+    "value": "'\\6a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "merge": {
+    "value": "'\\6b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "refresh": {
+    "value": "'\\6c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "qualified": {
+    "value": "'\\6d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "add": {
+    "value": "'\\6e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "delete": {
+    "value": "'\\6f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "backward": {
+    "value": "'\\70'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "clear": {
+    "value": "'\\71'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "forward": {
+    "value": "'\\72'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "expand": {
+    "value": "'\\73'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "collapse": {
+    "value": "'\\74'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "filters-shared": {
+    "value": "'\\75'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "filters": {
+    "value": "'\\76'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "alert": {
+    "value": "'\\77'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "search": {
+    "value": "'\\78'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "notifications": {
+    "value": "'\\79'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "favorite": {
+    "value": "'\\7a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "pause": {
+    "value": "'\\7b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "start": {
+    "value": "'\\7c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "stop": {
+    "value": "'\\7d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "disabled": {
+    "value": "'\\7e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "word": {
+    "value": "'\\e90b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "loading": {
+    "value": "'\\e000'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "pending": {
+    "value": "'\\e001'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "choose-background-color": {
+    "value": "'\\e002'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "cut": {
+    "value": "'\\e003'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "decrease-text-size": {
+    "value": "'\\e004'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "edit-raw-html": {
+    "value": "'\\e005'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "highlight": {
+    "value": "'\\e006'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "increase-text-size": {
+    "value": "'\\e007'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "merge-cell": {
+    "value": "'\\e008'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "split-cell": {
+    "value": "'\\e009'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "insert-cell": {
+    "value": "'\\e00a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "box-unchecked": {
+    "value": "'\\e00b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "box-checked": {
+    "value": "'\\e00c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "negative-adjustment": {
+    "value": "'\\e00d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "radio-unchecked": {
+    "value": "'\\e00e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "radio-checked": {
+    "value": "'\\e00f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "insert-place-holder": {
+    "value": "'\\e010'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "template": {
+    "value": "'\\e011'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "show-gridlines": {
+    "value": "'\\e012'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "left-align": {
+    "value": "'\\e013'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "center-align": {
+    "value": "'\\e014'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "right-align": {
+    "value": "'\\e015'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "justified": {
+    "value": "'\\e016'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "indent": {
+    "value": "'\\e017'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "outdent": {
+    "value": "'\\e018'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "insert-row": {
+    "value": "'\\e019'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "insert-column": {
+    "value": "'\\e01a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "ordered-list": {
+    "value": "'\\e01b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "image": {
+    "value": "'\\e01c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "spellcheck": {
+    "value": "'\\e01d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "undo": {
+    "value": "'\\e01e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "redo": {
+    "value": "'\\e01f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "left-to-right": {
+    "value": "'\\e020'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "right-to-left": {
+    "value": "'\\e021'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "bold": {
+    "value": "'\\e022'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "italic": {
+    "value": "'\\e023'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "strike-through": {
+    "value": "'\\e024'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "strip-formatting": {
+    "value": "'\\e025'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "subscript": {
+    "value": "'\\e026'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "superscript": {
+    "value": "'\\e027'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "underline": {
+    "value": "'\\e028'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "generic": {
+    "value": "'\\e029'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "positive-adjustment": {
+    "value": "'\\e02a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "ticket": {
+    "value": "'\\e02b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "copy": {
+    "value": "'\\e02c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "paste": {
+    "value": "'\\e02d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "hyperlink": {
+    "value": "'\\e02e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "special-character": {
+    "value": "'\\e02f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "train": {
+    "value": "'\\e030'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "guest-expenses": {
+    "value": "'\\e031'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "credit-card": {
+    "value": "'\\e032'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "km-non-taxable": {
+    "value": "'\\e033'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "restaurant": {
+    "value": "'\\e034'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "km-taxable": {
+    "value": "'\\e035'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "car-washing": {
+    "value": "'\\e036'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "air": {
+    "value": "'\\e037'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "car-other": {
+    "value": "'\\e038'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "car": {
+    "value": "'\\e039'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "hotel": {
+    "value": "'\\e03a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "negative-reaction": {
+    "value": "'\\e03b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "neutral-reaction": {
+    "value": "'\\e03c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "positive-reaction": {
+    "value": "'\\e03d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "managed-care-organization": {
+    "value": "'\\e03e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "other": {
+    "value": "'\\e03f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "wholesaler": {
+    "value": "'\\e040'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "practices": {
+    "value": "'\\e041'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "clusters": {
+    "value": "'\\e042'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "pharmacies": {
+    "value": "'\\e043'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "department": {
+    "value": "'\\e044'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "institution": {
+    "value": "'\\e045'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "business-contact": {
+    "value": "'\\e046'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "medical-professional": {
+    "value": "'\\e047'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "pager": {
+    "value": "'\\e048'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "homephone": {
+    "value": "'\\e049'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "fax": {
+    "value": "'\\e04a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "facetime": {
+    "value": "'\\e04b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "cell-phone": {
+    "value": "'\\e04c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "answering-service": {
+    "value": "'\\e04d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "password": {
+    "value": "'\\e04e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "poa-continuum": {
+    "value": "'\\e04f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "invoices": {
+    "value": "'\\e050'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "contact-history": {
+    "value": "'\\e051'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "account-1": {
+    "value": "'\\e052'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "signature": {
+    "value": "'\\e053'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "schedule": {
+    "value": "'\\e054'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "near-me": {
+    "value": "'\\e055'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "routes": {
+    "value": "'\\e056'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "archive": {
+    "value": "'\\e057'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "order": {
+    "value": "'\\e058'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "lock": {
+    "value": "'\\e059'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "material-management": {
+    "value": "'\\e05a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "folder": {
+    "value": "'\\e05b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "hierarchy": {
+    "value": "'\\e05c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "rejected": {
+    "value": "'\\e05d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "medical-inquiry": {
+    "value": "'\\e05e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "change-request": {
+    "value": "'\\e05f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "expenses": {
+    "value": "'\\e060'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "order-1": {
+    "value": "'\\e061'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "multimedia": {
+    "value": "'\\e062'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "samples": {
+    "value": "'\\e063'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "email-template": {
+    "value": "'\\e064'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "yammer": {
+    "value": "'\\e065'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "yammer-message": {
+    "value": "'\\e066'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "duration": {
+    "value": "'\\e067'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "photo": {
+    "value": "'\\e068'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "slides": {
+    "value": "'\\e069'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sample-increase": {
+    "value": "'\\e06a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sample-decrease": {
+    "value": "'\\e06b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "time-off-territory": {
+    "value": "'\\e06c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "summary": {
+    "value": "'\\e06d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "swot": {
+    "value": "'\\e06e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "stakeholder": {
+    "value": "'\\e06f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "shipment-delivery": {
+    "value": "'\\e070'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "star-solid": {
+    "value": "'\\e071'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "more-action": {
+    "value": "'\\e072'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "thumbs-up": {
+    "value": "'\\e073'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "thumbs-down": {
+    "value": "'\\e074'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "trophy": {
+    "value": "'\\e075'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "handshake": {
+    "value": "'\\e077'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "to-do": {
+    "value": "'\\e078'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "delivery-detail": {
+    "value": "'\\e079'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "dropdown": {
+    "value": "'\\e07a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "assessments": {
+    "value": "'\\e07b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "shipping-boxes": {
+    "value": "'\\e07c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "full-screen-view": {
+    "value": "'\\e07d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "filter": {
+    "value": "'\\e07e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "catalogue": {
+    "value": "'\\e07f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "cloud-upload": {
+    "value": "'\\e080'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "exchange-sync": {
+    "value": "'\\e081'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "territory": {
+    "value": "'\\e082'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "tablet": {
+    "value": "'\\e083'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "map-marker": {
+    "value": "'\\e084'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "cloud-download": {
+    "value": "'\\e085'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "channel-other": {
+    "value": "'\\e086'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "facebook": {
+    "value": "'\\e087'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "linkedin": {
+    "value": "'\\e088'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "news": {
+    "value": "'\\e089'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "twitter": {
+    "value": "'\\e08a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "youtube": {
+    "value": "'\\e08b'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "taxi": {
+    "value": "'\\e08c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "sidebar-expand": {
+    "value": "'\\e08e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "essential": {
+    "value": "'\\e08f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "compress": {
+    "value": "'\\e090'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "configure-environments": {
+    "value": "'\\e091'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "configure-alerts": {
+    "value": "'\\e092'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "backspace": {
+    "value": "'\\e093'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "local": {
+    "value": "'\\e094'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "services": {
+    "value": "'\\e095'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "fw-iss-service": {
+    "value": "'\\e096'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "fw-service-single": {
+    "value": "'\\e097'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "database": {
+    "value": "'\\e098'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "queue-manager": {
+    "value": "'\\e099'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "contract": {
+    "value": "'\\e900'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "microphone": {
+    "value": "'\\e901'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "opportunities": {
+    "value": "'\\e902'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "alignment-review": {
+    "value": "'\\e903'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "animal-health-org": {
+    "value": "'\\e904'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "group-purchasing-org": {
+    "value": "'\\e905'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "integrated-delivery-network": {
+    "value": "'\\e906'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "store-check": {
+    "value": "'\\e907'",
+    "type": "icon",
+    "category": "ui" 
+    },
+    "swot-1": {
+    "value": "'\\e908'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "temporary-customer": {
+    "value": "'\\e909'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "veterinarian": {
+    "value": "'\\e90a'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "executable": {
+    "value": "'\\e90c'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "package": {
+    "value": "'\\e90d'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "html": {
+    "value": "'\\e90e'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "script": {
+    "value": "'\\e90f'",
+    "type": "icon",
+    "category": "ui"
+    },
+    "video": {
+    "value": "'\\e910'",
+    "type": "icon",
+    "category": "ui"
+    }
+  }
+}

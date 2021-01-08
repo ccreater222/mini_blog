@@ -1,0 +1,21 @@
+---
+title: Background image
+category: jumbotron
+order: 10
+description: Use custom CSS to apply a background image to the jumbotron.  The example below uses inline styles for demonstration purposes, but these custom styles should be in your application-specific stylesheet.</p><p>If your background image is dark, you can include the <code>bg-dark</code> class to make the text readable.
+---
+<div class="jumbotron" style="background-image: linear-gradient(to right, rgba(255,255,255,.8),rgba(255,255,255,.8)), url('http://placeimg.com/1000/420/tech'); background-size: cover;">
+  <h1 class="h3">Light background image</h1>
+  <p>This example uses a background image with a semi-transparent white linear gradient to add a light color mask to the background image and ensure readability.</p>
+  <div>
+    <a class="btn btn-primary" href="#0" role="button">Sweet</a>
+  </div>
+</div>
+<!-- With dark background -->
+<div class="jumbotron bg-dark" style="background-image: linear-gradient(to right, rgba(0,0,0,.6),rgba(0,0,0,.6)), url('http://placeimg.com/1000/400/tech'); background-size: cover;">
+  <h1 class="h3">Dark background image</h1>
+  <p>Adding the <code>bg-dark</code> class takes care of inverting the text, and then the same linear gradient trick is used to add a dark color overlay to ensure that the white text stands out.</p>
+  <div>
+    <a class="btn btn-primary" href="#0" role="button">Nice</a>
+  </div>
+</div>

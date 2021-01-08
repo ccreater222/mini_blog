@@ -1,0 +1,23 @@
+.breadcrumb {
+  padding-left: 0;
+
+  > li {
+    display: inline-block;
+    list-style-type: none;
+
+    &:last-child {
+      font-weight: $font-semi-bold;
+    }
+
+    + li {
+      &::before {
+        @extend %icon-base;
+
+        display: inline-block;
+        padding-left: $breadcrumb-spacing;
+        padding-right: $breadcrumb-spacing;
+        content: map-get($_icons-map, forward);
+      }
+    }
+  }
+}
