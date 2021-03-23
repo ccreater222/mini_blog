@@ -9,6 +9,10 @@
 由于赶时间代码写的不是很好，以后打算重写一下
 
 
+## 致谢
+
+为了方便开发我使用了[hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo)作为自己的前端
+
 
 ## demo
 
